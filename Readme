@@ -1,0 +1,30 @@
+How to Run the Age Calculator
+Prerequisites
+Ensure you have a C++ compiler installed on your system. If you don't have one, you can get GCC (for Linux and macOS) or Dev (for Windows).
+
+Steps
+Download the Code
+
+Click on the green "Code" button on the repository page and choose "Download ZIP".
+Extract the ZIP file to your preferred location.
+Navigate to the Code Directory
+
+Open your terminal (or Command Prompt on Windows).
+Use the cd command to navigate to the directory where you've extracted the code.
+
+cd path/to/directory
+
+Compile the Code
+
+On the terminal, enter the following command: g++ Age-Calculator.cpp -o Age-Calculator
+
+This will compile the Age-Calculator.cpp file and create an executable named Age-Calculator (or Age-Calculator.exe on Windows).
+
+Run the Program
+
+After compiling, you can run the program with the following command: ./Age-Calculator
+On Windows, use: Age-Calculator.exe
+
+Now, follow any on-screen instructions provided by the program to calculate age.
+
+
