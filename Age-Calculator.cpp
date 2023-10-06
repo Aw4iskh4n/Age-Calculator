@@ -36,11 +36,17 @@ int tyear, tmonth, tdate, byear, bmonth, bdate, ageyear, agemonth, agedate;
      ageyear = ageyear - 1;
  }
  
- if(tdate <= bdate )
+ if(tdate < bdate )
  
 {
     agedate = (31 + tdate) - bdate;
-    agemonth = agemonth -1;
+    agemonth = agemonth - 1;
+}
+ 
+else if (tdate = bdate)
+
+{
+    agedate = tdate - bdate;
 }
  
 else
@@ -58,6 +64,3 @@ else
 
 
 }
-
-
-
