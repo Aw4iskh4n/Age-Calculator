@@ -1,5 +1,7 @@
 # Age Calculator
 
+This C++ application takes a user's birthdate as input and accurately calculates their age in years, months, and days. Built for speed and accuracy, it eliminates manual calculations and instantly provides the user's exact age, making it a handy tool for quick age verifications or just personal curiosity.
+
 ### Usage
 
 
