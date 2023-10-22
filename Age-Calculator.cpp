@@ -43,7 +43,7 @@ int tyear, tmonth, tdate, byear, bmonth, bdate, ageyear, agemonth, agedate;
     agemonth = agemonth - 1;
 }
  
-else if (tdate = bdate)
+else if (tdate == bdate)
 
 {
     agedate = tdate - bdate;
